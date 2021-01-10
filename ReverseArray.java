@@ -1,7 +1,7 @@
 public class ReverseArray {
     public static void main(String[] args) {
 
-        int[] array = { 1, 2, 3, 4, 5, 6 };
+        int[] array = { 1, 2, 3, 4, 5, 6, 8 };
 
         reverseArray(array, 0, array.length - 1);
         printArray(array, array.length);
