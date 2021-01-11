@@ -60,6 +60,9 @@ public class FindKthMinMax {
 
         int[] array = { 12, 11, 13, 5, 6, 7 };
         sort(array, 0, array.length - 1);
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
 
         System.out.println("kth larget number is :" + array[array.length - k]);
         System.out.println("kth smallest number is :" + array[k]);
